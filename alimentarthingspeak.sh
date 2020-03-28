@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-. configuracion
+KEYWRITE=SB2ABPCDMF5O8O9Q
+INSTALL_DIR=${HOME}/monitor
 MEMORIA=$(${INSTALL_DIR}/memoria.sh)
 LOADAVG1=$(${INSTALL_DIR}/loadavg.sh)
 LOADAVG5=$(${INSTALL_DIR}/loadavg.sh 5)
